@@ -8,13 +8,13 @@ void main() {
           appBar: AppBar(
 
             title: Text ("i'm very poor") ,
-            backgroundColor: Colors.green,
+            backgroundColor: Colors.green[100],
 
           ),
-          backgroundColor: Colors.purple[100],
-          body:Center(
+          backgroundColor: Colors.cyan[50],
+          body: Center(
             child:Image(
-              image: AssetImage(""),
+              image: AssetImage("images/poor.png"),
 
             ) ,
           )
